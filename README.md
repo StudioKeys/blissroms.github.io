@@ -1,6 +1,7 @@
 
-<h1 align="center">Website for Team Bliss / Bliss Family of ROMs - BlissRoms/Bliss OS</h1>
+<h1 align="center">Website Repo for Bliss Family of ROMs</h1>
 
 <p align="center">
-  <img src="https://raw.github.com/BlissRoms/platform_manifest/new-mm6.0/bliss-logo.png?raw=true"/>
+  <img src="https://rawgithub.com/BlissRoms/Documentation/blob/master/static/banner.jpg"/>
 </p>
+
