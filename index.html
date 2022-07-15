@@ -1,716 +1,767 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
-<head>
-  <title>BlissRoms</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta charset="utf-8" />
-  <meta property="twitter:card" content="summary_large_image" />
-  <style>
-    html {
-      line-height: 1.15;
-    }
-
-    body {
-      margin: 0;
-    }
-
-    * {
-      box-sizing: border-box;
-      border-width: 0;
-      border-style: solid;
-    }
-
-    p,
-    li,
-    ul,
-    pre,
-    div,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      margin: 0;
-      padding: 0;
-    }
-
-    button,
-    input,
-    optgroup,
-    select,
-    textarea {
-      font-family: inherit;
-      font-size: 100%;
-      line-height: 1.15;
-      margin: 0;
-    }
-
-    button,
-    select {
-      text-transform: none;
-    }
-
-    button,
-    [type="button"],
-    [type="reset"],
-    [type="submit"] {
-      -webkit-appearance: button;
-    }
-
-    button::-moz-focus-inner,
-    [type="button"]::-moz-focus-inner,
-    [type="reset"]::-moz-focus-inner,
-    [type="submit"]::-moz-focus-inner {
-      border-style: none;
-      padding: 0;
-    }
-
-    button:-moz-focus,
-    [type="button"]:-moz-focus,
-    [type="reset"]:-moz-focus,
-    [type="submit"]:-moz-focus {
-      outline: 1px dotted ButtonText;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: inherit;
-    }
-
-    input {
-      padding: 2px 4px;
-    }
-
-    img {
-      display: block;
-    }
-  </style>
-
-  <!--swiper-->
-  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-
-  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-  <script data-ad-client="ca-pub-7639560510014441" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-  <style>
-    html {
-      font-family: Inter;
-      font-size: 16px;
-    }
-
-    body {
-      font-weight: 400;
-      font-style: normal;
-      text-decoration: none;
-      text-transform: none;
-      letter-spacing: normal;
-      line-height: 1.15;
-      color: var(--dl-color-gray-black);
-      background-color: var(--dl-color-gray-white);
-
-    }
-  </style>
-  <link rel="shortcut icon" href="/playground_assets/bliss logo.svg" type="icon/png" sizes="32x32" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" />
-  <link rel="stylesheet" href="./styles/style.css" />
-</head>
-
-<body>
-  <div>
-    <link href="./styles/home.css" rel="stylesheet" />
+  <head>
     <title>BlissRoms</title>
-    <meta name="description"
-      content="BlissRoms. An open-source operating system based on Android with customizations, options, and added security features." />
+    <script src="main.js"></script>
+    <meta
+      property="og:image"
+      content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/441d32d5-7efd-47e4-b222-ec49e55a626f/2f834815-e128-4caa-9538-1e5a5cb7fbd8?org_if_sml=1"
+    />
+    <meta
+      property="og:description"
+      content="BlissRoms. An open-source operating system based on Android with customizations, options, and added security features."
+    />
     <meta property="og:title" content="BlissRoms" />
-    <meta property="og:description"
-      content="BlissRoms. An open-source operating system based on Android with customizations, options, and added security features." />
-    <div class="home-container">
-      <nav class="Navbar navbar-fixed rootClassName">
-        <img alt="logo" src="../public/playground_assets/nav_logo.svg" class="navbar-image" />
-        <div class="navbar-container">
-          <nav class="navbar-nav-elements-desktop">
-            <a href="/index.html" class="navbar-navlink">
-              <div class="nav_element-container">
-                <span class="nav_element-text navelement">
-                  <span>Home</span>
-                </span>
-              </div>
-            </a>
-            <a href="/index.html" class="navbar-navlink1">
-              <div class="nav_element-container">
-                <span class="nav_element-text navelement">
-                  <span>Features</span>
-                </span>
-              </div>
-            </a>
-            <a href="/team.html" class="navbar-navlink2">
-              <div class="nav_element-container">
-                <span class="nav_element-text navelement">
-                  <span>Team</span>
-                </span>
-              </div>
-            </a>
-            <a href="https://bliss-family-store.creator-spring.com/" target="_blank" rel="noreferrer noopener"
-              class="navbar-link">
-              <div class="nav_element-container">
-                <span class="nav_element-text navelement">
-                  <span>Gear</span>
-                </span>
-              </div>
-            </a>
-            <a href="https://docs.blissroms.org/" target="_blank" rel="noreferrer noopener" class="navbar-link1">
-              <div class="nav_element-container">
-                <span class="nav_element-text navelement">
-                  <span>Docs</span>
-                </span>
-              </div>
-            </a>
-          </nav>
-        </div>
-        <a href="#downloads">
-          <div class="navbar-btn-group">
-            <div class="button-container rootClassName4">
-              <span class="button-text body-16"><span>Download</span></span>
-            </div>
+    <meta
+      name="description"
+      content="BlissRoms. An open-source operating system based on Android with customizations, options, and added security features."
+    />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <style data-tag="reset-style-sheet">
+      html {
+        line-height: 1.15;
+      }
+      body {
+        margin: 0;
+      }
+      * {
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+      }
+      p,
+      li,
+      ul,
+      pre,
+      div,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0;
+        padding: 0;
+      }
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+      }
+      button,
+      select {
+        text-transform: none;
+      }
+      button,
+      [type="button"],
+      [type="reset"],
+      [type="submit"] {
+        -webkit-appearance: button;
+      }
+      button::-moz-focus-inner,
+      [type="button"]::-moz-focus-inner,
+      [type="reset"]::-moz-focus-inner,
+      [type="submit"]::-moz-focus-inner {
+        border-style: none;
+        padding: 0;
+      }
+      button:-moz-focus,
+      [type="button"]:-moz-focus,
+      [type="reset"]:-moz-focus,
+      [type="submit"]:-moz-focus {
+        outline: 1px dotted ButtonText;
+      }
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      input {
+        padding: 2px 4px;
+      }
+      img {
+        display: block;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="/playground_assets/favicon.ico"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./home.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <header data-role="Header" class="nav-nav">
+          <img
+            alt="image"
+            src="public/playground_assets/bliss-logo.svg"
+            class="nav-image"
+          />
+          <div class="nav-nav1">
+            <nav class="nav-nav2">
+              <a
+                href="http://docs.blissroms.org"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="nav-link"
+              >
+                <span>Docs</span>
+              </a>
+              <a href="#features" class="nav-link1 nav-link">
+                <span>Features</span>
+              </a>
+              <a
+                href="https://blisslabs.org"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="nav-link2 nav-link"
+              >
+                <span>BlissLabs</span>
+              </a>
+              <a
+                href="https://blissroms.org/team.html"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="nav-link3 nav-link"
+              >
+                <span>Team</span>
+              </a>
+              <a
+                href="https://blog.blissroms.org/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="nav-link4 nav-link"
+              >
+                <span>Blog</span>
+              </a>
+            </nav>
           </div>
-        </a>
-        <div class="navbar-burger-menu teleport-menu-burger">
-          <svg viewBox="0 0 1024 1024" class="navbar-icon">
-            <path
-              d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z">
-            </path>
-          </svg>
-        </div>
-        <nav class="navbar-nav-elements-mobile teleport-menu-mobile">
-          <a href="/index.html" class="navbar-navlink3 h4-28 mb-12 navelement">
-            <span>Home</span>
-          </a>
-          <a href="#features" class="navbar-link3 h4-28 mb-12 navelement">
-            <span>Features</span>
-          </a>
-          <a href="/team.html" class="navbar-navlink4 h4-28 mb-12 navelement">
-            <span>Team</span>
-          </a>
-          <span class="navbar-text h4-28 mb-12 navelement">
-            <span>Gear</span>
-          </span>
-          <span class="navbar-text1 mb-12 navelement h4-28">
-            <span>Blog</span>
-          </span>
-          <a href="#downloads">
-            <div class="navbar-btn-group1">
-              <div class="button-container rootClassName4">
-                <span class="button-text body-16"><span>Download</span></span>
-              </div>
-            </div>
-          </a>
-          <div class="navbar-container1 teleport-menu-close">
-            <svg viewBox="0 0 804.5714285714286 1024" class="navbar-icon2">
-              <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z">
-              </path>
+          <div class="nav-btn-group">
+            <a href="#download" class="nav-register button">
+              <span><span>Download</span></span>
+            </a>
+          </div>
+          <div
+            onclick="toggleMenu()"
+            ;
+            id="hamicon"
+            data-type="BurgerMenu"
+            class="teleport-menu-burger nav-burger-menu"
+          >
+            <svg viewBox="0 0 1024 1024" class="nav-icon">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
             </svg>
           </div>
-        </nav>
-      </nav>
-      <div class="home-hero">
-        <span class="home-text">BlissRoms</span>
-        <span class="home-text01 h6-20">
-          An open-source operating system based on Android with
-          customizations, options and added security features.
-        </span>
-        <img alt="image" src="public/playground_assets/phone_img-1500h.png" loading="lazy" class="home-image" />
-      </div>
-      <div id="features" class="home-features-section">
-        <div class="home-featuresheader">
-          <span class="home-text02 h4-28">It’s more than what you think</span>
-          <span class="home-text03 body-16">
-            A comprehesive overview of features
-          </span>
-        </div>
-        <div class="home-features">
-          <div class="home-sec-bb">
-            <div class="home-security">
-              <svg viewBox="0 0 1024 1024" class="home-icon">
-                <path
-                  d="M512 42l384 172v256q0 178-110 325t-274 187q-164-40-274-187t-110-325v-256zM512 512v382q118-38 200-143t98-239h-298zM512 512v-376l-298 132v244h298z">
-                </path>
-              </svg>
-              <span class="home-text04 h6-20">Added Security</span>
-              <span class="home-text05 body-12">
-                We include many options for customization and theming
-                throughout the OS
-              </span>
-            </div>
-            <div class="home-battery">
-              <svg viewBox="0 0 1024 1024" class="home-icon02">
-                <path
-                  d="M213.333 725.333h-85.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-341.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h136.107c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-136.107c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v341.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h85.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667zM640 298.667h85.333c11.776 0 22.4 4.736 30.165 12.501s12.501 18.389 12.501 30.165v341.333c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-136.107c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h136.107c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-341.333c0-35.328-14.379-67.413-37.504-90.496s-55.168-37.504-90.496-37.504h-85.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM1024 554.667v-85.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v85.333c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667zM433.835 232.32l-170.667 256c-13.056 19.627-7.765 46.080 11.819 59.179 7.339 4.907 15.659 7.211 23.68 7.168h176.256l-126.464 189.653c-13.056 19.627-7.765 46.080 11.819 59.179s46.080 7.765 59.179-11.819l170.667-256c4.523-6.656 7.211-14.848 7.211-23.68 0-23.552-19.115-42.667-42.667-42.667h-176.256l126.464-189.653c13.056-19.627 7.765-46.080-11.819-59.179s-46.080-7.765-59.179 11.819z">
-                </path>
-              </svg>
-              <span class="home-text06 h6-20">Battery-friendly</span>
-              <span class="home-text07 body-12">
-                Extra options are provided to help tune battery consumption to
-                the best levels
-              </span>
-            </div>
-          </div>
-          <div class="home-design-settings">
-            <div class="home-focusondesign">
-              <svg viewBox="0 0 1024 1024" class="home-icon04">
-                <path
-                  d="M1018.17 291.89l-286.058-286.058c-9.334-9.334-21.644-7.234-27.356 4.666l-38.354 79.904 267.198 267.198 79.904-38.354c11.9-5.712 14-18.022 4.666-27.356z">
-                </path>
-                <path
-                  d="M615.384 135.384l-263.384 21.95c-17.5 2.166-32.080 5.898-37.090 28.752-0.006 0.024-0.012 0.042-0.018 0.066-71.422 343.070-314.892 677.848-314.892 677.848l57.374 57.374 271.986-271.99c-5.996-12.53-9.36-26.564-9.36-41.384 0-53.020 42.98-96 96-96s96 42.98 96 96-42.98 96-96 96c-14.82 0-28.852-3.364-41.384-9.36l-271.988 271.986 57.372 57.374c0 0 334.778-243.47 677.848-314.892 0.024-0.006 0.042-0.012 0.066-0.018 22.854-5.010 26.586-19.59 28.752-37.090l21.95-263.384-273.232-273.232z">
-                </path>
-              </svg>
-              <span class="home-text08 h6-20">Focus on design</span>
-              <span class="home-text09 body-12">
-                We include many options for customization and theming
-                throughout the OS
-              </span>
-            </div>
-            <img alt="image" src="public/playground_assets/bliss_logo.svg" class="home-image1" />
-            <div class="home-settings">
-              <svg viewBox="0 0 1024 1024" class="home-icon07">
-                <path
-                  d="M512 662q62 0 106-44t44-106-44-106-106-44-106 44-44 106 44 106 106 44zM830 554l90 70q14 10 4 28l-86 148q-8 14-26 8l-106-42q-42 30-72 42l-16 112q-4 18-20 18h-172q-16 0-20-18l-16-112q-38-16-72-42l-106 42q-18 6-26-8l-86-148q-10-18 4-28l90-70q-2-14-2-42t2-42l-90-70q-14-10-4-28l86-148q8-14 26-8l106 42q42-30 72-42l16-112q4-18 20-18h172q16 0 20 18l16 112q38 16 72 42l106-42q18-6 26 8l86 148q10 18-4 28l-90 70q2 14 2 42t-2 42z">
-                </path>
-              </svg>
-              <span class="home-text10 h6-20">Customized settings</span>
-              <span class="home-text11 body-12">
-                Choose settings depending on the criteria you value the most.
-                With no limits.
-              </span>
-            </div>
-          </div>
-          <div class="home-perf-comp">
-            <div class="home-performance">
-              <svg viewBox="0 0 1024 1024" class="home-icon09">
-                <path
-                  d="M512 0c-282.77 0-512 229.23-512 512s229.23 512 512 512 512-229.23 512-512-229.23-512-512-512zM302.836 834.152c11.106-30.632 17.164-63.688 17.164-98.152 0-124.35-78.81-230.292-189.208-270.606 10.21-84.924 48.254-163.498 109.678-224.924 72.53-72.526 168.96-112.47 271.53-112.47s199 39.944 271.53 112.47c61.428 61.426 99.468 140 109.682 224.924-110.402 40.314-189.212 146.256-189.212 270.606 0 34.468 6.060 67.52 17.166 98.15-61.706 40.242-133.77 61.85-209.166 61.85-75.394 0-147.458-21.608-209.164-61.848zM551.754 640.996c13.878 3.494 24.246 16.080 24.246 31.004v64c0 17.6-14.4 32-32 32h-64c-17.6 0-32-14.4-32-32v-64c0-14.924 10.368-27.51 24.246-31.004l23.754-448.996h32l23.754 448.996z">
-                </path>
-              </svg>
-              <span class="home-text12 h6-20">Performance</span>
-              <span class="home-text13 body-12">
-                Focused on speed and stability with tweaks to assist in the
-                most demanding applications
-              </span>
-            </div>
-            <div class="home-compatibility">
-              <img alt="image" src="public/playground_assets/compatibility.svg" class="home-image2" />
-              <span class="home-text14 h6-20">Compatibility</span>
-              <span class="home-text15 body-12">
-                We bring Bliss to every device we own. And our PC builds
-                include extras for ARM/ARM64 app compatibility
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="home-stats">
-        <div class="home-stat">
-          <svg viewBox="0 0 1152 1024" class="home-icon11">
-            <path
-              d="M768 770.612v-52.78c70.498-39.728 128-138.772 128-237.832 0-159.058 0-288-192-288s-192 128.942-192 288c0 99.060 57.502 198.104 128 237.832v52.78c-217.102 17.748-384 124.42-384 253.388h896c0-128.968-166.898-235.64-384-253.388z">
-            </path>
-            <path
-              d="M327.196 795.328c55.31-36.15 124.080-63.636 199.788-80.414-15.054-17.784-28.708-37.622-40.492-59.020-30.414-55.234-46.492-116.058-46.492-175.894 0-86.042 0-167.31 30.6-233.762 29.706-64.504 83.128-104.496 159.222-119.488-16.914-76.48-61.94-126.75-181.822-126.75-192 0-192 128.942-192 288 0 99.060 57.502 198.104 128 237.832v52.78c-217.102 17.748-384 124.42-384 253.388h279.006c14.518-12.91 30.596-25.172 48.19-36.672z">
-            </path>
-          </svg>
-          <span class="home-text16">Maintainer</span>
-          <span class="home-text17">Total no of maintainers</span>
-          <h1 class="home-text18 h3-48"><span>35</span></h1>
-        </div>
-        <div class="home-stat1">
-          <svg viewBox="0 0 1024 1024" class="home-icon14">
-            <path d="M214 768h596v86h-596v-86zM810 384l-298 298-298-298h170v-256h256v256h170z"></path>
-          </svg>
-          <span class="home-text20">Downloads</span>
-          <span class="home-text21">Total no of downloads</span>
-          <h1 class="home-text22 h3-48"><span>20m+</span></h1>
-        </div>
-        <div class="home-stat2">
-          <svg viewBox="0 0 1024 1024" class="home-icon16">
-            <path
-              d="M938 726v-300h-170v300h170zM982 342q18 0 30 12t12 30v426q0 18-12 31t-30 13h-256q-18 0-31-13t-13-31v-426q0-18 13-30t31-12h256zM170 256v470h428v128h-598v-128h86v-470q0-34 25-60t59-26h768v86h-768z">
-            </path>
-          </svg>
-          <span class="home-text24">Devices</span>
-          <span class="home-text25">total no of supported devices</span>
-          <h1 class="home-text26 h3-48"><span>37</span></h1>
-        </div>
-      </div>
-      <div id="downloads" class="home-downloads">
-        <h1 class="h4-28"><span class="home-text29">Downloads</span></h1>
-        <span class="home-text30 body-12">
-          <span>
-            Open source software is code that is designed to be publicly
-            accessible
-          </span>
-          <span>
-            anyone can see, modify, and distribute the code as they see fit.
-          </span>
-        </span>
-        <div class="home-container1">
-          <div class="home-container2">
-            <div class="home-p-c">
-              <h1 class="home-text33 h5-24">Bliss OS for pc</h1>
-              <span class="home-text34 body-12">
-                <span>
-                  An Open Source OS, based on Android for PC&apos;s &amp;
-                  Tablets
+          <div
+            id="mobilemenu"
+            data-type="MobileMenu"
+            class="teleport-menu-mobile nav-mobile-menu"
+          >
+            <div class="nav-nav3">
+              <div class="nav-container">
+                <img
+                  alt="image"
+                  src="public/playground_assets/bliss-logo.svg"
+                  class="nav-image1"
+                />
+                <div
+                  onclick="toggleMenu()"
+                  ;
+                  data-type="CloseMobileMenu"
+                  class="nav-menu-close teleport-menu-close"
+                >
+                  <svg viewBox="0 0 1024 1024" class="nav-icon02">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                class="navigation-links-nav navigation-links-root-class-name11"
+              >
+                <span class="nav-link"><span>About</span></span>
+                <span class="navigation-links-text1 nav-link">
+                  <span>Features</span>
                 </span>
-              </span>
-              <span class="home-text36 body-12"></span>
-              <a href="https://blissos.org/" target="_blank" rel="noreferrer noopener" class="home-link">
-                <div class="button-container rootClassName4">
-                  <span class="button-text body-16">
-                    <span>Bliss OS</span>
-                  </span>
-                </div>
+                <a
+                  href="https://blisslabs.org"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="navigation-links-link nav-link"
+                >
+                  <span>BlissLabs</span>
+                </a>
+                <a
+                  href="https://blissroms.org/team.html"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="navigation-links-link1 nav-link"
+                >
+                  <span>Team</span>
+                </a>
+                <span class="navigation-links-text2 nav-link">
+                  <span>Blog</span>
+                </span>
+              </nav>
+            </div>
+            <div class="nav-icon-group">
+              <svg viewBox="0 0 950.8571428571428 1024" class="nav-icon04">
+                <path
+                  d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                ></path></svg
+              ><svg viewBox="0 0 877.7142857142857 1024" class="nav-icon06">
+                <path
+                  d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                ></path></svg
+              ><svg viewBox="0 0 602.2582857142856 1024" class="nav-icon08">
+                <path
+                  d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </header>
+        <div class="home-hero">
+          <div class="home-hero-text">
+            <span class="home-rom-name">BlissRoms</span>
+            <h1 class="home-text">
+              <span>The customization you want,</span>
+              <br />
+              <span class="home-text02">with the privacy you need</span>
+            </h1>
+            <span class="home-text03">
+              An open-source operating system based on Android with
+              customizations, options and added security features.
+            </span>
+            <div class="home-btn-group">
+              <a href="#download" class="home-link button">
+                <svg viewBox="0 0 1024 1024" class="home-icon">
+                  <path
+                    d="M853.333 640v170.667c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-597.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-170.667c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v170.667c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h597.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-170.667c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM554.667 537.003v-409.003c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v409.003l-140.501-140.501c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c3.925 3.925 8.619 7.083 13.824 9.259s10.795 3.243 16.341 3.243c10.923 0 21.845-4.181 30.165-12.501l213.333-213.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"
+                  ></path>
+                </svg>
+                <span class="home-text04">Download</span>
               </a>
-              <a href="https://android-generic.github.io/" target="_blank" rel="noreferrer noopener" class="home-link1">
-                <div class="button-container rootClassName4">
-                  <span class="button-text body-16">
-                    <span>Android Generic</span>
-                  </span>
-                </div>
+              <a
+                href="https://blog.blissroms.org/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link1 button"
+              >
+                <svg viewBox="0 0 1024 1024" class="home-icon02">
+                  <path
+                    d="M981.333 512c0-129.579-52.565-246.997-137.472-331.861s-202.283-137.472-331.861-137.472-246.997 52.565-331.861 137.472-137.472 202.283-137.472 331.861 52.565 246.997 137.472 331.861 202.283 137.472 331.861 137.472 246.997-52.565 331.861-137.472 137.472-202.283 137.472-331.861zM896 512c0 106.069-42.923 201.984-112.469 271.531s-165.461 112.469-271.531 112.469-201.984-42.923-271.531-112.469-112.469-165.461-112.469-271.531 42.923-201.984 112.469-271.531 165.461-112.469 271.531-112.469 201.984 42.923 271.531 112.469 112.469 165.461 112.469 271.531zM554.667 682.667v-170.667c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v170.667c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667zM554.667 341.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667 19.115 42.667 42.667 42.667 42.667-19.115 42.667-42.667z"
+                  ></path>
+                </svg>
+                <span class="home-text05">Changelog</span>
               </a>
             </div>
           </div>
-          <div class="home-rom">
-            <h1 class="home-text37 h5-24">BlissRoms for mobile</h1>
-            <span class="home-text38 body-12">
-              <span>An open-source operating system based on Android</span>
+          <div class="home-hero-image">
+            <img
+              alt="image"
+              src="public/playground_assets/header-img-400w.png"
+              loading="lazy"
+              class="home-image"
+            />
+          </div>
+        </div>
+        <div id="features" class="features-features">
+          <div class="features-heading">
+            <h1 class="features-text">
+              <span></span>
+              <span>It’s more than what you think</span>
+            </h1>
+            <span class="features-text03">
+              <span>A comprehesive overview of features</span>
             </span>
-            <a href="https://downloads.blissroms.org/" target="_blank" rel="noreferrer noopener" class="home-link2">
-              <div class="button-container rootClassName4">
-                <span class="button-text body-16">
-                  <span>BlissRoms</span>
+          </div>
+          <div class="features-list">
+            <div class="features-f-1">
+              <div class="features-focus-on-design feature-card">
+                <img
+                  alt="image"
+                  src="public/playground_assets/design_services_black_24dp%201.svg"
+                  class="features-image"
+                />
+                <h1 class="features-text04"><span>Focus on design</span></h1>
+                <span>
+                  <span>
+                    We include many options for customization and theming
+                    throughout the OS
+                  </span>
                 </span>
               </div>
-            </a>
-            <div class="home-container3">
-              <a href="https://sourceforge.net/projects/blissroms/files/https://sourceforge.net/projects/blissroms/files/"
-                target="_blank" rel="noreferrer noopener" class="home-link3">
-                <div class="button_nofill-container rootClassName">
-                  <span class="button_nofill-text body-16">
-                    <span>Earlier Builds</span>
+              <div class="features-performance feature-card">
+                <img
+                  alt="image"
+                  src="public/playground_assets/assessment_black_24dp%201.svg"
+                  class="features-image1"
+                />
+                <h1 class="features-text06"><span>Performance</span></h1>
+                <span>
+                  <span>
+                    Focused on speed and stability with tweaks to assist in the
+                    most demanding applications
                   </span>
-                </div>
+                </span>
+              </div>
+              <div class="features-regular-updates feature-card">
+                <img
+                  alt="image"
+                  src="public/playground_assets/ontime%20updates.svg"
+                  class="features-image2"
+                />
+                <h1 class="features-text08"><span>Regular updates</span></h1>
+                <span>
+                  <span>
+                    Bliss mainterners provide regular updates based on released
+                    builds.
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="features-f-2">
+              <div class="features-battery-friendly feature-card">
+                <img
+                  alt="image"
+                  src="public/playground_assets/battery-heart-outline.svg"
+                  class="features-image3"
+                />
+                <h1 class="features-text10"><span>Battery-friendly</span></h1>
+                <span>
+                  <span>
+                    Extra options are provided to help tune battery consumption
+                    to the best levels
+                  </span>
+                </span>
+              </div>
+              <div class="features-added-security feature-card">
+                <img
+                  alt="image"
+                  src="public/playground_assets/verified_user_black_24dp%201.svg"
+                  class="features-image4"
+                />
+                <h1 class="features-text12"><span>Added Security</span></h1>
+                <span>
+                  <span>
+                    We include many options for security and safety throughout
+                    the OS
+                  </span>
+                </span>
+              </div>
+              <div class="features-many-more feature-card">
+                <img
+                  alt="image"
+                  src="public/playground_assets/more_black_24dp%201.svg"
+                  class="features-image5"
+                />
+                <h1 class="features-text14">
+                  <span></span>
+                  <span>and many more</span>
+                </h1>
+                <span>
+                  <span>
+                    More options are provided to help tune android to the best
+                    levels
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <img
+            alt="image"
+            src="public/playground_assets/bg-logo-400w.png"
+            class="features-image6"
+          />
+        </div>
+        <div class="stats-stats">
+          <div class="stats-maintainer">
+            <img
+              alt="image"
+              src="public/playground_assets/groups_black_24dp.svg"
+              class="stats-image"
+            />
+            <h1 class="stats-text"><span>Maintainer</span></h1>
+            <span class="stats-text1">
+              <span>Total no of maintainers</span>
+            </span>
+            <h1 class="stats-text2"><span>35</span></h1>
+          </div>
+          <div class="stats-downloads">
+            <img
+              alt="image"
+              src="public/playground_assets/file_download_black_24dp.svg"
+              class="stats-image1"
+            />
+            <h1 class="stats-text3"><span>Downloads</span></h1>
+            <span class="stats-text4"><span>Total no of downloads</span></span>
+            <h1 class="stats-text5"><span>20M+</span></h1>
+          </div>
+          <div class="stats-devices">
+            <img
+              alt="image"
+              src="public/playground_assets/devices_black_24dp.svg"
+              class="stats-image2"
+            />
+            <h1 class="stats-text6"><span>Devices</span></h1>
+            <span class="stats-text7"><span>Total no of devices</span></span>
+            <h1 class="stats-text8"><span>35</span></h1>
+          </div>
+        </div>
+        <div id="download" class="home-download-pc">
+          <div class="home-android-download download-card">
+            <div class="home-container1">
+              <div class="home-container2">
+                <span class="home-text06">Get started</span>
+                <h1 class="home-text07">Android Phone</h1>
+                <span class="home-text08">
+                  Download blissrom for your android mobile and enjoy all the
+                  benefits of customization and security you need.
+                </span>
+              </div>
+              <a
+                href="https://downloads.blissroms.org/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link2 button"
+              >
+                <svg viewBox="0 0 1024 1024" class="home-icon04">
+                  <path
+                    d="M214 768h596v86h-596v-86zM810 384l-298 298-298-298h170v-256h256v256h170z"
+                  ></path>
+                </svg>
+                <span class="home-text09">Download now</span>
               </a>
             </div>
+            <img
+              alt="image"
+              src="public/playground_assets/mobiel-ss-1500w.png"
+              loading="lazy"
+              class="home-image1"
+            />
+            <img
+              alt="image"
+              src="public/playground_assets/vectorblob-1.svg"
+              class="home-image2"
+            />
+            <img
+              alt="image"
+              src="public/playground_assets/vector-200h.png"
+              class="home-image3"
+            />
           </div>
-        </div>
-      </div>
-
-
-      <!--Images-->
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="./screenshots/1.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./screenshots/2.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./screenshots/3.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./screenshots/4.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./screenshots/10.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./screenshots/6.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./screenshots/7.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./screenshots/8.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./screenshots/9.jpg" />
-          </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-
-      <!-- Swiper JS -->
-      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-      <!-- Initialize Swiper -->
-      <script>
-        var swiper = new Swiper(".mySwiper", {
-          effect: "coverflow",
-          grabCursor: true,
-          centeredSlides: true,
-          slidesPerView: "auto",
-          coverflowEffect: {
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
-          },
-          pagination: {
-            el: ".swiper-pagination",
-          },
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-
-          },
-        });
-      </script>
-
-
-
-
-      <div class="home-joinbliss">
-        <div class="home-container4">
-          <h1 class="home-text40 h3-36">Join Bliss</h1>
-          <h1 class="home-text41 body-16">
-            <span class="home-text42">
-              We are accepting applications for maintainer and team
-            </span>
-          </h1>
-        </div>
-        <a href="https://docs.google.com/forms/d/1NbZ0mDqYoTnGbqLcd_XXt8d_SwQ2erxIAEWXHzhElS0/viewform" target="_blank"
-          rel="noreferrer noopener" class="home-link4 button-14 join button">
-          Join
-        </a>
-      </div>
-      <footer id="footer" class="footer-footer rootClassName1">
-        <div class="footer-container">
-          <div class="footer-logo">
-            <div class="footer-logo1">
-              <img alt="logo" src="../public/playground_assets/bliss%20logo1.svg" class="footer-image" />
-              <span class="footer-text body-16"><span>BlissRoms</span></span>
+          <div class="home-p-c-download">
+            <div class="home-container3">
+              <div class="home-container4">
+                <span class="home-text10">Get started</span>
+                <h1 class="home-text11">For PC</h1>
+                <span class="home-text12">
+                  Download Bliss OS for your personal computer enjoy all the
+                  benefits of customizations and security you need.
+                </span>
+              </div>
+              <a
+                href="https://blissos.org/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link3 button"
+              >
+                <svg viewBox="0 0 1024 1024" class="home-icon06">
+                  <path
+                    d="M214 768h596v86h-596v-86zM810 384l-298 298-298-298h170v-256h256v256h170z"
+                  ></path>
+                </svg>
+                <span class="home-text13">Download now</span>
+              </a>
             </div>
-            <span class="footer-text02">
-              <span>
+            <img
+              alt="image"
+              src="public/playground_assets/as-1500w.png"
+              loading="lazy"
+              class="home-image4"
+            />
+            <img
+              alt="image"
+              src="public/playground_assets/vectorblob.svg"
+              class="home-image5"
+            />
+            <img
+              alt="image"
+              src="public/playground_assets/frame%2038.svg"
+              class="home-image6"
+            />
+          </div>
+        </div>
+        <div class="home-download-mobile">
+          <div class="home-mobile-download-mobile">
+            <div class="home-container5">
+              <span class="home-text14">Get started</span>
+              <h1 class="home-text15">Android Phone</h1>
+              <span class="home-text16">
+                Download blissrom for your android mobile and enjoy all the
+                benefits of customization and security you need.
+              </span>
+            </div>
+            <button class="home-button button">
+              <svg viewBox="0 0 1024 1024" class="home-icon08">
+                <path
+                  d="M214 768h596v86h-596v-86zM810 384l-298 298-298-298h170v-256h256v256h170z"
+                ></path>
+              </svg>
+              <span class="home-text17">Download now</span>
+            </button>
+          </div>
+          <div class="home-p-c-download-mobile">
+            <div class="home-container6">
+              <span class="home-text18">Get started</span>
+              <h1 class="home-text19">For PC</h1>
+              <span class="home-text20">
+                Download Bliss OS for your personal computer enjoy all the
+                benefits of customizations and security you need.
+              </span>
+            </div>
+            <button class="home-button1 button">
+              <svg viewBox="0 0 1024 1024" class="home-icon10">
+                <path
+                  d="M214 768h596v86h-596v-86zM810 384l-298 298-298-298h170v-256h256v256h170z"
+                ></path>
+              </svg>
+              <span class="home-text21">Download now</span>
+            </button>
+          </div>
+        </div>
+        <footer class="footer-footer">
+          <div class="footer-container">
+            <div class="footer-logo">
+              <img
+                alt="logo"
+                src="public/playground_assets/bliss-logo.svg"
+                class="footer-image"
+              />
+              <span class="footer-text">
                 <span>
                   An open-source operating system based on Android with
                   customizations, options and added security features.
                 </span>
               </span>
-            </span>
-          </div>
-          <div class="footer-links-container">
-            <div class="footer-container1">
-              <div class="footer-community-container">
-                <span class="footer-text05">Community</span>
-                <a href="https://t.me/Team_Bliss_Community" target="_blank" rel="noreferrer noopener"
-                  class="footer-link Footerlink">
-                  <span>BlissRoms Telegram</span>
-                  <br />
-                  <span></span>
-                </a>
-                <a href="https://t.me/blissx86" target="_blank" rel="noreferrer noopener"
-                  class="footer-link01 Footerlink">
-                  Bliss OS Telegram
-                </a>
-                <a href="https://discord.gg/wwc4Aua4fp" target="_blank" rel="noreferrer noopener"
-                  class="footer-link02 Footerlink">
-                  Bliss Discord
-                </a>
-              </div>
-              <div class="footer-sources-container">
-                <span class="footer-text08">Sources</span>
-                <span class="Footerlink">BlissRoms Gerrit Review</span>
-                <a href="https://review-x86.blissroms.com/" target="_blank" rel="noreferrer noopener"
-                  class="footer-link03 Footerlink">
-                  <span>Bliss OS (x86) Gerrit Review</span>
-                  <br />
-                  <span></span>
-                </a>
-                <a href="https://github.com/BlissRoms" target="_blank" rel="noreferrer noopener"
-                  class="footer-link04 Footerlink">
-                  BlissRoms GitHub
-                </a>
-                <a href="https://github.com/BlissRoms-Devices" target="_blank" rel="noreferrer noopener"
-                  class="footer-link05 Footerlink">
-                  BlissRoms-Devices GitHub
-                </a>
-                <a href="https://github.com/BlissRoms-x86" target="_blank" rel="noreferrer noopener"
-                  class="footer-link06 Footerlink">
-                  Bliss OS GitHub
-                </a>
-                <a href="https://github.com/BlissRoms-pine64" target="_blank" rel="noreferrer noopener"
-                  class="footer-link07 Footerlink">
-                  BlissRoms-PINE64 GitHub
-                </a>
-              </div>
             </div>
-            <div class="footer-container2">
-              <div class="footer-contact">
-                <span class="footer-text12 footer-Text-Style">Links</span>
-                <a href="https://blissroms.org/team.html" target="_blank" rel="noreferrer noopener"
-                  class="footer-link08 Footerlink">
-                  Team members
-                </a>
-                <a href="https://status.blissroms.org/" target="_blank" rel="noreferrer noopener"
-                  class="footer-link09 Footerlink">
-                  Status
-                </a>
-                <a href="https://blog.blissroms.org/" target="_blank" rel="noreferrer noopener"
-                  class="footer-link10 Footerlink">
-                  Blog
-                </a>
+            <div class="footer-links-container">
+              <div class="footer-container1">
+                <div class="footer-product-container">
+                  <span class="footer-text1"><span>Community</span></span>
+                  <a
+                    href="https://t.me/Team_Bliss_Community"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer-link"
+                  >
+                    <span>BlissRoms Telegram</span>
+                  </a>
+                  <a
+                    href="https://t.me/blissx86"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer-link01"
+                  >
+                    <span>Bliss OS Telegram</span>
+                  </a>
+                  <a
+                    href="https://discord.com/invite/wwc4Aua4fp"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer-link02"
+                  >
+                    <span>Bliss Discord</span>
+                  </a>
+                </div>
+                <div class="footer-company-container">
+                  <span class="footer-text2"><span>Sources</span></span>
+                  <a
+                    href="https://review.blissroms.org/q/status:open+-is:wip"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer-link03"
+                  >
+                    <span>BlissRoms Gerrit Review</span>
+                  </a>
+                  <a
+                    href="https://github.com/BlissRoms"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer-link04"
+                  >
+                    <span>BlissRoms GitHub</span>
+                  </a>
+                  <a
+                    href="https://github.com/BlissRoms-Devices"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer-link05"
+                  >
+                    <span>BlissRoms-Devices GitHub</span>
+                  </a>
+                  <a
+                    href="https://github.com/BlissRoms-x86"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer-link06"
+                  >
+                    <span>Bliss OS GitHub</span>
+                  </a>
+                  <a
+                    href="https://github.com/BlissRoms-pine64"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer-link07"
+                  >
+                    <span>BlissRoms-PINE64 GitHub</span>
+                  </a>
+                </div>
               </div>
-              <div class="footer-socials">
-                <span class="footer-text13 footer-Text-Style">Follow Us</span>
-                <div class="footer-icon-group">
-                  <a href="https://twitter.com/stayblissful" target="_blank" rel="noreferrer noopener"
-                    class="footer-link11">
-                    <svg viewBox="0 0 950.8571428571428 1024" class="icons">
-                      <path
-                        d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z">
-                      </path>
-                    </svg>
+              <div class="footer-container2">
+                <div class="footer-contact">
+                  <span class="footer-text3"><span>Links</span></span>
+                  <a
+                    href="https://blissroms.org/team.html"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer-link08"
+                  >
+                    <span>Team members</span>
                   </a>
-                  <a href="https://www.instagram.com/blissroms/" target="_blank" rel="noreferrer noopener"
-                    class="footer-link12">
-                    <svg viewBox="0 0 877.7142857142857 1024" class="footer-icon02 icons">
-                      <path
-                        d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z">
-                      </path>
-                    </svg>
+                  <a
+                    href="https://status.blissroms.org"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer-link09"
+                  >
+                    <span>Status</span>
                   </a>
-                  <a href="https://github.com/BlissRoms" target="_blank" rel="noreferrer noopener"
-                    class="footer-link13">
-                    <svg viewBox="0 0 877.7142857142857 1024" class="footer-icon04 icons">
-                      <path
-                        d="M438.857 73.143c242.286 0 438.857 196.571 438.857 438.857 0 193.714-125.714 358.286-300 416.571-22.286 4-30.286-9.714-30.286-21.143 0-14.286 0.571-61.714 0.571-120.571 0-41.143-13.714-67.429-29.714-81.143 97.714-10.857 200.571-48 200.571-216.571 0-48-17.143-86.857-45.143-117.714 4.571-11.429 19.429-56-4.571-116.571-36.571-11.429-120.571 45.143-120.571 45.143-34.857-9.714-72.571-14.857-109.714-14.857s-74.857 5.143-109.714 14.857c0 0-84-56.571-120.571-45.143-24 60.571-9.143 105.143-4.571 116.571-28 30.857-45.143 69.714-45.143 117.714 0 168 102.286 205.714 200 216.571-12.571 11.429-24 30.857-28 58.857-25.143 11.429-89.143 30.857-127.429-36.571-24-41.714-67.429-45.143-67.429-45.143-42.857-0.571-2.857 26.857-2.857 26.857 28.571 13.143 48.571 64 48.571 64 25.714 78.286 148 52 148 52 0 36.571 0.571 70.857 0.571 81.714 0 11.429-8 25.143-30.286 21.143-174.286-58.286-300-222.857-300-416.571 0-242.286 196.571-438.857 438.857-438.857zM166.286 703.429c1.143-2.286-0.571-5.143-4-6.857-3.429-1.143-6.286-0.571-7.429 1.143-1.143 2.286 0.571 5.143 4 6.857 2.857 1.714 6.286 1.143 7.429-1.143zM184 722.857c2.286-1.714 1.714-5.714-1.143-9.143-2.857-2.857-6.857-4-9.143-1.714-2.286 1.714-1.714 5.714 1.143 9.143 2.857 2.857 6.857 4 9.143 1.714zM201.143 748.571c2.857-2.286 2.857-6.857 0-10.857-2.286-4-6.857-5.714-9.714-3.429-2.857 1.714-2.857 6.286 0 10.286s7.429 5.714 9.714 4zM225.143 772.571c2.286-2.286 1.143-7.429-2.286-10.857-4-4-9.143-4.571-11.429-1.714-2.857 2.286-1.714 7.429 2.286 10.857 4 4 9.143 4.571 11.429 1.714zM257.714 786.857c1.143-3.429-2.286-7.429-7.429-9.143-4.571-1.143-9.714 0.571-10.857 4s2.286 7.429 7.429 8.571c4.571 1.714 9.714 0 10.857-3.429zM293.714 789.714c0-4-4.571-6.857-9.714-6.286-5.143 0-9.143 2.857-9.143 6.286 0 4 4 6.857 9.714 6.286 5.143 0 9.143-2.857 9.143-6.286zM326.857 784c-0.571-3.429-5.143-5.714-10.286-5.143-5.143 1.143-8.571 4.571-8 8.571 0.571 3.429 5.143 5.714 10.286 4.571s8.571-4.571 8-8z">
-                      </path>
-                    </svg>
+                  <a
+                    href="https://blog.blissroms.org/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer-link10"
+                  >
+                    <span>Blog</span>
                   </a>
-                  <a href="https://t.me/BlissROM_Updates" target="_blank" rel="noreferrer noopener"
-                    class="footer-link14">
-                    <svg viewBox="0 0 1024 1024" class="footer-icon06 icons">
-                      <path
-                        d="M679.429 746.857l84-396c7.429-34.857-12.571-48.571-35.429-40l-493.714 190.286c-33.714 13.143-33.143 32-5.714 40.571l126.286 39.429 293.143-184.571c13.714-9.143 26.286-4 16 5.143l-237.143 214.286-9.143 130.286c13.143 0 18.857-5.714 25.714-12.571l61.714-59.429 128 94.286c23.429 13.143 40 6.286 46.286-21.714zM1024 512c0 282.857-229.143 512-512 512s-512-229.143-512-512 229.143-512 512-512 512 229.143 512 512z">
-                      </path>
-                    </svg>
-                  </a>
-                  <a href="https://www.linkedin.com/company/stayblissful" target="_blank" rel="noreferrer noopener"
-                    class="footer-link15">
-                    <svg viewBox="0 0 877.7142857142857 1024" class="footer-icon08 icons">
-                      <path
-                        d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z">
-                      </path>
-                    </svg>
-                  </a>
-                  <a href="https://www.reddit.com/r/BlissRoms" target="_blank" rel="noreferrer noopener"
-                    class="footer-link16">
-                    <svg viewBox="0 0 1024 1024" class="icons footer-icon10">
-                      <path
-                        d="M1024 483.429c0 44.571-25.143 82.857-62.286 101.714 4.571 17.714 6.857 36 6.857 54.857 0 180.571-204 326.857-455.429 326.857-250.857 0-454.857-146.286-454.857-326.857 0-18.286 2.286-36.571 6.286-53.714-38.286-18.857-64.571-57.714-64.571-102.857 0-62.857 50.857-113.714 113.714-113.714 32.571 0 61.714 13.714 82.857 36 77.143-53.714 180-88.571 294.286-92.571l66.286-297.714c2.286-10.286 13.143-17.143 23.429-14.857l210.857 46.286c13.714-27.429 42.857-46.857 76-46.857 47.429 0 85.714 38.286 85.714 85.143 0 47.429-38.286 85.714-85.714 85.714-46.857 0-85.143-38.286-85.143-85.143l-190.857-42.286-59.429 269.714c114.857 3.429 218.857 37.714 296.571 91.429 20.571-21.714 49.714-34.857 81.714-34.857 62.857 0 113.714 50.857 113.714 113.714zM238.857 597.143c0 47.429 38.286 85.714 85.143 85.714 47.429 0 85.714-38.286 85.714-85.714 0-46.857-38.286-85.143-85.714-85.143-46.857 0-85.143 38.286-85.143 85.143zM701.714 800c8.571-8.571 8.571-21.143 0-29.714-8-8-21.143-8-29.143 0-34.286 34.857-108 46.857-160.571 46.857s-126.286-12-160.571-46.857c-8-8-21.143-8-29.143 0-8.571 8-8.571 21.143 0 29.714 54.286 54.286 158.857 58.286 189.714 58.286s135.429-4 189.714-58.286zM700 682.857c46.857 0 85.143-38.286 85.143-85.714 0-46.857-38.286-85.143-85.143-85.143-47.429 0-85.714 38.286-85.714 85.143 0 47.429 38.286 85.714 85.714 85.714z">
-                      </path>
-                    </svg>
-                  </a>
+                </div>
+                <div class="footer-socials">
+                  <span class="footer-text4"><span>Follow Us</span></span>
+                  <div class="footer-icon-group">
+                    <a
+                      href="https://twitter.com/bliss_roms"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="footer-link11"
+                    >
+                      <svg
+                        viewBox="0 0 950.8571428571428 1024"
+                        class="footer-icon"
+                      >
+                        <path
+                          d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                        ></path>
+                      </svg>
+                    </a>
+                    <a
+                      href="https://www.instagram.com/blissroms"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="footer-link12"
+                    >
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="footer-icon2"
+                      >
+                        <path
+                          d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                        ></path>
+                      </svg>
+                    </a>
+                    <a
+                      href="https://www.facebook.com/BlissROMs"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="footer-link13"
+                    >
+                      <svg
+                        viewBox="0 0 602.2582857142856 1024"
+                        class="footer-icon4"
+                      >
+                        <path
+                          d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="footer-separator"></div>
-        <span class="footer-text14 body-16" style="color: white;">
-          <span>Copyright © 2021 BlissLabs. All rights reserved</span>
-        </span>
-      </footer>
+          <div class="footer-separator"></div>
+          <span class="footer-text5">
+            <span>Copyright © 2022 BlissLabs. All rights reserved</span>
+          </span>
+        </footer>
+      </div>
     </div>
-  </div>
-
-  <!--navbar-->
-  <script>
-
-    (function () {
-      class Menu {
-        init = () => {
-          this.listenForUrlChanges()
-          this.getMenuElementsAndAddEvents()
-          return this;
-        };
-
-        getMenuElementsAndAddEvents = () => {
-          const mobileMenuElement = document.getElementsByClassName('teleport-menu-mobile')[0]
-          const closeMenuElement = document.getElementsByClassName('teleport-menu-close')[0]
-          const burgerMenuElement = document.getElementsByClassName('teleport-menu-burger')[0]
-
-          if (!burgerMenuElement) {
-            teleport.log("We're missing an element with a 'teleport-menu-mobile' class.");
-            return;
-          }
-
-
-          if (!mobileMenuElement) {
-            teleport.error(
-              `We're missing an element with a 'teleport-menu-mobile' class.`
-            );
-            return;
-          }
-
-          if (!closeMenuElement) {
-            teleport.error(
-              `We're missing an element with a 'teleport-menu-mobile' class.'`
-            );
-            return;
-          }
-
-          mobileMenuElement.addEventListener("click", () => {
-            mobileMenuElement.classList.remove("teleport-menu-show");
-          })
-          burgerMenuElement.addEventListener("click", () => {
-            mobileMenuElement.classList.add("teleport-menu-show");
-          });
-          closeMenuElement.addEventListener("click", () => {
-            mobileMenuElement.classList.remove("teleport-menu-show");
-          });
-        };
-
-        listenForUrlChanges = () => {
-          let url = location.href;
-          document.addEventListener('click', () => {
-            requestAnimationFrame(() => {
-              if (url !== location.href) {
-                console.log('URL changed');
-                this.getMenuElementsAndAddEvents()
-                url = location.href
-              }
-            });
-          }, true);
+    <script>
+      function mobilemenu() {
+        if (document.getElementById("mobilemenu").style.display == "block") {
+          document.getElementById("mobilemenu").style.display = "none";
+        } else {
+          document.getElementById("mobilemenu").style.display = "block";
         }
+        document
+          .getElementById("hamicon")
+          .addEventListener("click", mobilemenu);
       }
-
-      const teleport = {
-        debug: false,
-        log: (msg, obj) => {
-          if (teleport.debug) {
-            console.log("teleport: " + msg, obj || "");
-          }
-        },
-        error: (msg, object) => {
-          console.error("teleport-error: " + msg, object);
-        },
-        Menu,
-      }
-
-      new Menu().init()
-    })()
-  </script>
-
-</body>
-
+    </script>
+  </body>
 </html>

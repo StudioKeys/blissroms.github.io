@@ -1,0 +1,132 @@
+.stats-stats {
+  gap: 24px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.stats-maintainer {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  border-radius: 16px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: 32px;
+}
+.stats-image {
+  width: 56px;
+  object-fit: cover;
+}
+.stats-text {
+  color: #301BB8;
+  font-size: 24px;
+}
+.stats-text1 {
+  margin-top: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.stats-text2 {
+  color: #1E0E87;
+  font-size: 3em;
+  margin-top: var(--dl-space-space-halfunit);
+}
+.stats-downloads {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  border-radius: 16px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: 32px;
+}
+.stats-image1 {
+  width: 56px;
+  object-fit: cover;
+}
+.stats-text3 {
+  color: #1B57B8;
+  font-size: 24px;
+}
+.stats-text4 {
+  margin-top: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.stats-text5 {
+  color: #0E3C87;
+  font-size: 3em;
+  margin-top: var(--dl-space-space-halfunit);
+}
+.stats-devices {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  border-radius: 16px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: 32px;
+}
+.stats-image2 {
+  width: 56px;
+  object-fit: cover;
+}
+.stats-text6 {
+  color: #3FB81B;
+  font-size: 24px;
+}
+.stats-text7 {
+  margin-top: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.stats-text8 {
+  color: #004C41;
+  font-size: 3em;
+  margin-top: var(--dl-space-space-halfunit);
+}
+@media(max-width: 767px) {
+  .stats-stats {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .stats-maintainer {
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .stats-downloads {
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .stats-devices {
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 479px) {
+  .stats-stats {
+    width: auto;
+    align-self: center;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
