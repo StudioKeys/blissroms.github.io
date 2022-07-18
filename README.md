@@ -2,7 +2,7 @@
 <h1 align="center">Website for BlissLabs - BlissROMs/BlissOS</h1>
 
 <p align="center">
-  <img src="https://github.com/BlissRoms/Documentation/blob/master/static/banner.jpg"/>
+  <img src="https://imgur.com/jmiT0ss.png"/>
 </p>
 
 Here, you can find all the neccessary files that are part of our beautiful website!
